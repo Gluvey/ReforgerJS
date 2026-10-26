@@ -1,6 +1,6 @@
 # ReforgerJS state
 
-Updated: 30 September 2026
+Updated: 26 October 2026
 
 ## Done
 
@@ -8,10 +8,15 @@ Updated: 30 September 2026
 - `/hqevidence` opens the private EXD HQ case workflow separately.
 - The original evidence command still falls back to BattleMetrics search links when its API is unavailable.
 - Only the first ReforgerJS instance registers and handles shared slash commands.
+- The Discord token was refreshed across all three live instances.
+- The unused privileged Message Content intent was removed.
+- All three live Discord clients connect to the Exodus guild without restart loops.
 
 ## Next
 
 - Confirm both commands with one real staff interaction in Discord.
+- Investigate the separate BattleMetrics 403 responses.
+- Investigate the separate server 3 RCON warning.
 
 ## Key facts
 

@@ -123,7 +123,6 @@ async function performStartupChecks(config) {
       intents: [
         GatewayIntentBits.Guilds,
         GatewayIntentBits.GuildMessages,
-        GatewayIntentBits.MessageContent,
       ],
     });
 
