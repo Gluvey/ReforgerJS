@@ -11,12 +11,13 @@ Updated: 26 October 2026
 - The Discord token was refreshed across all three live instances.
 - The unused privileged Message Content intent was removed.
 - All three live Discord clients connect to the Exodus guild without restart loops.
+- Server 3 completed its delayed RCON connection without later warnings.
+- A revoked bearer-token example was removed from the public source and live comment.
 
 ## Next
 
 - Confirm both commands with one real staff interaction in Discord.
-- Investigate the separate BattleMetrics 403 responses.
-- Investigate the separate server 3 RCON warning.
+- Replace the BattleMetrics token with one that can access Exodus organisation data.
 
 ## Key facts
 
