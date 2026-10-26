@@ -205,16 +205,6 @@ class BattleMetrics {
       return [];
     }
 
-    // curl https://api.battlemetrics.com/bans \
-    // -G \
-    // -d "filter[expired]=false" \
-    // -d "filter[exempt]=false" \
-    // -d "filter[organization]=25069" \
-    // -d "filter[banList]=9f172ad0-9e97-11ee-a3b7-f9dee4010c6b" \
-    // -d "page[size]=100" \
-    // -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImNlNWMyYTJmNmZiODljMGQiLCJpYXQiOjE3NTA3ODUyMDIsIm5iZiI6MTc1MDc4NTIwMiwiaXNzIjoiaHR0cHM6Ly93d3cuYmF0dGxlbWV0cmljcy5jb20iLCJzdWIiOiJ1cm46dXNlcjoxMDA2NDkwIn0.fTzpMpYKYa9eh4E_kYOhZK7C4rWroknj4MRR-J9Dpzw"
-
-
     const baseOptions = {
       'filter[expired]': false,
       'filter[exempt]': false,
